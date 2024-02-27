@@ -18,7 +18,7 @@ def main():
     bb=np.multiply(ev[0][0], ev[1][0])
     BB=np.multiply(ev[0][1], ev[1][1])
 
-    //working an example from MAE3013
+    #working an example from MAE3013
     A=np.array([[-1,1,0],[1,-2,1],[0,1,-1]])
     ev=linalg.eig(A)
     vec1=np.round(ev[1][:,0],2)
